@@ -8,6 +8,8 @@ public class Main {
 
         int a = sc.nextInt();
 
+        sc.close();
+        
         System.out.println(a*2);
     }
 }
