@@ -10,6 +10,12 @@ public class Main {
         c = temp1;
         b = temp2;
 
+        // 교체 2
+        // int temp = a;
+        // a = c;
+        // c = b;
+        // b = temp;
+
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
