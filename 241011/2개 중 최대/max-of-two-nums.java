@@ -11,12 +11,8 @@ public class Main {
         a = sc.nextInt();
         b = sc.nextInt();
 
-        if(a > b) {
-            System.out.println(a);
-        }
-        else {
-            System.out.println(b);
-        }
+        int maxnum = a > b ? a : b;
+        System.out.println(maxnum);
 
 
 
