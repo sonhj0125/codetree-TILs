@@ -12,5 +12,9 @@ public class Main {
             System.out.println(n);
             System.out.println("minus");
         }
+        else {
+            System.out.println(n);
+        }
+
     }
 }
