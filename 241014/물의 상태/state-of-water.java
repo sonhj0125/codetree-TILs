@@ -15,7 +15,7 @@ public class Main {
         else if(temp >= 100){
             System.out.println("vapor");
         }
-        else if(0 <= temp && temp < 100){
+        else {
             System.out.println("water");
         }
 
