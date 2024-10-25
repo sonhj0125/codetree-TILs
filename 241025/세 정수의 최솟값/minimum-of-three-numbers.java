@@ -13,15 +13,7 @@ public class Main {
         c = sc.nextInt();
         sc.close();
 
-        if(a < b && a < c) {
-            System.out.print(a);
-        }
-        else if(b < a && b < c) {
-            System.out.println(b);
-        }
-        else {
-            System.out.print(c);
-        }
+        System.out.print((a <= b && a <= c) ? a : (b <= c) ? b : c);
         
 
 
