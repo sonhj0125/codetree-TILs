@@ -28,7 +28,7 @@ public class Main {
         }
         else {
             // 첫 번째 사람이 A가 아니라면, 남은 두 사람 모두 A여야 함.
-            if((ch2 == 'Y' && temp2 >= 37) || (ch3 == 'Y' && temp3 >= 37)) {
+            if((ch2 == 'Y' && temp2 >= 37) && (ch3 == 'Y' && temp3 >= 37)) {
                 System.out.println("E");
             }
             else {
