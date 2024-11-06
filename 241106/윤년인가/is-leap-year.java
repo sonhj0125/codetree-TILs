@@ -12,10 +12,7 @@ public class Main {
         // 4로 나누어 떨어지는 해는 윤년, 그 밖의 해는 평년
         // 단, 예외적으로 100으로 나누어 떨어지되, 400으로 나누어 떨어지지 않는 해는 평년
 
-        if(y % 4 == 0) {
-            System.out.println("true");
-        }
-        else if(y % 100 == 0 && y % 400 != 0) {
+        if((y % 4 == 0 && y % 100 == 0) || (y % 400 != 0)) {
             System.out.println("true");
         }
         else {
