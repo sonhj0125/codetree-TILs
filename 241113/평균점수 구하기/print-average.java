@@ -7,7 +7,7 @@ public class Main {
 
         double[] arr = new double[8];
 
-        int sum = 0;
+        double sum = 0;
         int cnt = 0;
 
         for(int i=0; i<8; i++){
